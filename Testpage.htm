@@ -39,9 +39,17 @@
 	</head>
 	<body background="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Backgrounds/BackgroundSite.png">
 		<script>
-			function Redirect() {
-				window.location.href = "youtube.com";
+			function RedirectSteam() {
+				window.location.href = "https://steamcommunity.com/sharedfiles/filedetails/?id=3152490542";
  			}
+
+			function RedirectLogs() {
+				window.location.href = "https://steamcommunity.com/sharedfiles/filedetails/changelog/3152490542";
+			}
+
+			function RedirectHome() {
+				window.location.href = "Testpage.htm";
+			}
 		</script>
 
 		<center>
@@ -59,9 +67,9 @@
 			
 			<div style="width: 900px; height: 100px; border: 5px solid #199664; padding: 50px; margin: 20px; color: green; background-color: #00be00;">
 				<h1>Navigation Bar</h1>
-				<input type="button" onclick="Redirect()" value="Mod Update Log" />
-				<input type="button" onclick="Redirect()" value="Homepage" />
-				<input type="button" onclick="Redirect()" value="Steam" />
+				<input type="button" onclick="RedirectLogs()" value="Mod Update Log" />
+				<input type="button" onclick="RedirectHome()" value="Homepage" />
+				<input type="button" onclick="RedirectSteam()" value="Steam" />
 			</div>
 		</center>
 	</body>
