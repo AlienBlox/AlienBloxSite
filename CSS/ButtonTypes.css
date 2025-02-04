@@ -1,0 +1,12 @@
+.ButtonPanel {
+    color: #175c40;
+    text-emphasis-color: #005c00;
+    background-color: #32af32;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #199664;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width = 100%;
+    height = 
+}
