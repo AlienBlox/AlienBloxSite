@@ -7,7 +7,6 @@
     border: 5px solid #199664;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 100%;
-    height: 80px;
-
+    width: 200%;
+    height: 40px;
 }
