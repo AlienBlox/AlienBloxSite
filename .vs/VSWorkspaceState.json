@@ -3,7 +3,9 @@
     "",
     "\\Images",
     "\\Images\\Backgrounds",
-    "\\Images\\Icons"
+    "\\Images\\Icons",
+    "\\Pages"
   ],
+  "SelectedNode": "\\Pages",
   "PreviewInSolutionExplorer": false
 }
