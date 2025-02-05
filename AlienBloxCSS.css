@@ -33,3 +33,11 @@ h1, h2 {
 	color: #ffffff00;
 	background-color: #ffffff00;
 }
+
+.CenterDiv {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
