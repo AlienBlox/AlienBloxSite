@@ -4,8 +4,9 @@
     "\\Images",
     "\\Images\\Backgrounds",
     "\\Images\\Icons",
-    "\\Pages"
+    "\\Pages",
+    "\\Scripts"
   ],
-  "SelectedNode": "\\Pages",
+  "SelectedNode": "\\Images\\Icons\\ModLogo.png",
   "PreviewInSolutionExplorer": false
 }
