@@ -48,3 +48,15 @@ h1, h2 {
 	top: 0;
 	overflow: hidden;
 }
+
+@media (max-width: 600px) {
+	#SizeMattersSmall {
+		display: none;
+	}
+}
+
+@media (min-width: 599px) {
+	#SizeMattersBig {
+		display: none;
+	}
+}
