@@ -8,9 +8,10 @@ function RedirectLogs()
 	window.location.href = "https://steamcommunity.com/sharedfiles/filedetails/changelog/3152490542";
 }
 
-function Redirect(lnk)
-{
-	window.location.href = lnk;
+function RedirectUrl(lnk) {
+    if (lnk != undefined) {
+        window.location.href = lnk;
+    }
 }
 
 function RedirectYouTube() {

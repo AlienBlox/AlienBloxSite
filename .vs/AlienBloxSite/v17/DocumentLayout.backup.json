@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\Pages\\UpcomingStuff.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pages\\UpcomingStuff.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\AlienBloxHome.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AlienBloxHome.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\AlienBloxCSS.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AlienBloxCSS.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\AlienBloxHome.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AlienBloxHome.htm||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Alien\\Source\\Repos\\AlienBloxSite\\CSS\\ButtonTypes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-10T18:32:03.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,27 +61,27 @@
               "RelativeDocumentMoniker": "AlienBloxCSS.css",
               "ToolTip": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\AlienBloxCSS.css",
               "RelativeToolTip": "AlienBloxCSS.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-02-09T15:56:30.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UpcomingStuff.htm",
               "DocumentMoniker": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\Pages\\UpcomingStuff.htm",
               "RelativeDocumentMoniker": "Pages\\UpcomingStuff.htm",
               "ToolTip": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\Pages\\UpcomingStuff.htm",
               "RelativeToolTip": "Pages\\UpcomingStuff.htm",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAByAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-02-09T15:37:56.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AlienBloxHome.htm",
               "DocumentMoniker": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\AlienBloxHome.htm",
               "RelativeDocumentMoniker": "AlienBloxHome.htm",
@@ -72,12 +89,11 @@
               "RelativeToolTip": "AlienBloxHome.htm",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAADQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-08T19:48:04.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T19:48:04.721Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Download.htm",
               "DocumentMoniker": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\Pages\\Download.htm",
               "RelativeDocumentMoniker": "Pages\\Download.htm",
@@ -85,12 +101,11 @@
               "RelativeToolTip": "Pages\\Download.htm",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-05T15:38:16.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T15:38:16.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ButtonTypes.css",
               "DocumentMoniker": "C:\\Users\\Alien\\source\\repos\\AlienBloxSite\\CSS\\ButtonTypes.css",
               "RelativeDocumentMoniker": "CSS\\ButtonTypes.css",
@@ -98,8 +113,7 @@
               "RelativeToolTip": "CSS\\ButtonTypes.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-04T16:34:04.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T16:34:04.077Z"
             }
           ]
         }

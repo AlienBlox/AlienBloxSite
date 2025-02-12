@@ -49,13 +49,13 @@ h1, h2 {
 	overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
 	#SizeMattersSmall {
 		display: none;
 	}
 }
 
-@media (min-width: 599px) {
+@media (min-width: 1199px) {
 	#SizeMattersBig {
 		display: none;
 	}
