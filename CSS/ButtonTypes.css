@@ -16,3 +16,13 @@
 .ButtonPanel :hover {
     color: darkblue;
 }
+
+button.MobileButton {
+    height: 100%;
+    width: 12.5%;
+    margin: 0px;
+    float: right;
+    border: 0px solid green;
+    background: url('') no-repeat right 50% center;
+    background-size: 20px;
+}
