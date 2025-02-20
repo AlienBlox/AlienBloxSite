@@ -19,8 +19,12 @@ h1, h2 {
 	float: left;
 }
 
-.SidePanelRight {
-	float: right;
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	width: 100%;
 }
 
 button:hover, input:hover {
