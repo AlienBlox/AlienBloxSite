@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="UTF-8">
-		<title>AlienBlox's News</title>
-		<script type="text/javascript" src="../Scripts/InputScripts.js"></script>
-		<link rel="stylesheet" type="text/css" href="../AlienBloxCSS.css">
-		<link rel="stylesheet" type="text/css" href="../CSS/ButtonTypes.css" />
-		<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Icons/Favicon.png">
-		<style>
-			body, div, p2, button {
-				border-radius: 10px;
-			}
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>AlienBlox's Mod</title>
+        <script type="text/javascript" src="Scripts/InputScripts.js"></script>
+        <script type="text/javascript" src="Scripts/Redirects.js"></script>
+        <script type="text/javascript" src="Scripts/DropdownScript.js"></script>
+        <link rel="stylesheet" href="AlienBloxCSS.css">
+        <link rel="stylesheet" type="text/css" href="CSS/ButtonTypes.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/DropDown.css" />
+        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Icons/Favicon.png">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Icons/Favicon.png">
+        <style>
+            body, div, p2, button {
+                border-radius: 10px;
+            }
 
-			body {
-				background-color: #32af32;
-				background-repeat: no-repeat;
-				background-attachment: fixed;
-				background-size: 100% 100%;
-			}
+            body {
+                background-color: #32af32;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
 
             div {
-				position:relative;
                 width: 625px;
                 height: 400px;
                 border: 5px solid #007535;
@@ -31,90 +37,91 @@
                 background-color: #00be00;
             }
 
-			p2 {
-				color: #175c40;
-				font-size: 20px;
-				font-family: Arial, Helvetica, sans-serif;
-			}
+            p2 {
+                color: #175c40;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
 
-			button, input {
-				color: #175c40;
-				text-emphasis-color: #005c00;
-				background-color: #32af32;
-				font-size: 20px;
-				font-family: Arial, Helvetica, sans-serif;
-				border: 5px solid #199664;
-				transition-duration: 0.4s;
-				cursor: pointer;
-			}
+            button, input {
+                color: #175c40;
+                text-emphasis-color: #005c00;
+                background-color: #32af32;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 5px solid #199664;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
 
-			img {
-				background-size: 455px 128px;
-			}
-		</style>
-	</head>
-	<body background="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Backgrounds/BackgroundSite.png">
-		<script>
-			function RedirectSteam() {
-				window.location.href = "https://steamcommunity.com/sharedfiles/filedetails/?id=3152490542";
-			}
+            img {
+                background-size: 455px 128px;
+            }
+        </style>
+    </head>
+    <body background="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Backgrounds/BackgroundSite.png" style="background-size: cover; padding: 0px; margin: 0px; overflow: visible; max-width: 100vw; ">
+        <div class="TopBar" style="width: 100%; height: 120px; padding: 0px; margin: -5px; border: 5px solid #007535; border-radius: 5px; text-align: left; background-color: #FFFFFF00; border-color: #FFFFFF00;">
+            <script>
+				    function PoopInMyNasties() {
+					    var x = document.getElementById("SizeMattersBig2");
+					    if (x.style.display === "none") {
+						    x.style.display = "block";
+					    } else {
+						    x.style.display = "none";
+					    }
+				    }
+            </script>
 
-			function RedirectLogs() {
-				window.location.href = "https://steamcommunity.com/sharedfiles/filedetails/changelog/3152490542";
-			}
+            <div style="width: 100%; height: 90px; padding: 0px; margin: -5px; border: 5px solid #007535; border-radius: 5px; top: 5px; text-align: left; justify-content: space-between; flex-grow: 0; flex-shrink: 0; flex-basis: 35%; display: flex; overflow: hidden">
+                <div style="color: #00000000; border: 0px solid #00000000; padding: 5px; margin: 5px 5px 5px 5px; width: 273px; height: 85%; object-fit: scale-down;">
+                    <a href="AlienBloxHome.htm">
+                        <img src="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Icons/ModLogo.png" style="width: 273px; height: 76.8px; margin: -5px" alt="AlienBlox's Logo;" />
+                    </a>
+                </div>
 
-			function RedirectHome() {
-				window.location.href = "../AlienBloxHome.htm";
-			}
+                <div id="SizeMattersBig" style="width: 85px; height: 100%; padding: 0px; margin: 0px; border: 1px solid #007535; border-radius: 5px; text-align: left; border: 0px solid red; border-radius: 0px; color: #00000000; overflow: hidden">
+                    <input type="button" id="DropDownButton" style="height: 100%; width: 100%; margin: 0px; float: right; font-size: 3em; border: 0px" value="☰" onclick="PoopInMyNasties()" />
+                </div>
 
-			function RedirectYouTube() {
-				window.location.href = "https://www.youtube.com/channel/UCpu_V3nxWViuAOHAeGlkyvQ/";
-			}
-		</script>
+                <div id="SizeMattersSmall" class="InvisDiv" style="width: 595px; height: 100%; padding: 0px; margin: 0px; text-align: right; border: 0px solid red; color: #00000000; justify-content:left; overflow: hidden; border-radius: 0px; border: 0px">
+                    <div class="InvisDiv" style="min-width: 1200px; float: right; width: 340px; height: 100%; padding: 0px; margin: 0px; text-align: center; border: 0px solid red; color: #00000000; justify-content:left">
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; background: url('https://static.wikia.nocookie.net/logopedia/images/9/9f/YouTube_icon_2024.svg/revision/latest?cb=20240718123533') no-repeat right 50% center; background-size: 40px; border: inherit; background-color: color(rec2020 0 0.8 0) " onclick="RedirectYouTube()" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; background: url('https://static.wikia.nocookie.net/logopedia/images/5/56/Steam_Icon_2014.svg/revision/latest?cb=20190826175003') no-repeat right 50% center; background-size: 40px; border: inherit; background-color: color(rec2020 0 0.55 0) " onclick="RedirectSteam()" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; background: url('https://static.wikia.nocookie.net/logopedia/images/8/83/Twitch_icon.svg/revision/latest?cb=20200130150510') no-repeat right 50% center; background-size: 40px; border: inherit; background-color: color(rec2020 0 0.8 0) " onclick="InputUrl('https://www.patreon.com/c/AlienBlox')" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; background: url('https://static.wikia.nocookie.net/logopedia/images/4/42/Patreon_Icon_2023.svg/revision/latest?cb=20231006180657') no-repeat right 50% center; background-size: 40px; border: inherit; background-color: color(rec2020 0 0.55 0) " onclick="InputUrl('https://www.twitch.tv/alienblox')" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.8 0); font-family: 'Fira Code'; font-size: 50%; " onclick="InputUrl('https://steamcommunity.com/id/AlienBloxxed/')" value="Steam Profile" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.55 0); font-family: 'Fira Code'; font-size: 100% " onclick="InputUrl('Pages/News.htm')" value="News" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.8 0); font-family: 'Fira Code'; font-size: 50%" onclick="InputUrl('Pages/Download.htm')" value="Download" />
+                    </div>
+                </div>
+            </div>
 
-		<center>
-			<div class="InvisDiv" style="height: 25%; padding: 0px; margin:0px">
-				<img src="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Icons/ModLogo.png" style="width: 25%; height: 25%" alt="AlienBlox's Logo">
-			</div>
+            <div id="SizeMattersBig2" style="display: none; width: 100%; height: 35px; padding: 0px; margin: 0px; text-align: right; border: 0px inset red; color: #00000000; background-color: color(rec2020 0 0.75 0); justify-content:left; border-radius: 0px">
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background: url('https://static.wikia.nocookie.net/logopedia/images/9/9f/YouTube_icon_2024.svg/revision/latest?cb=20240718123533') no-repeat right 50% center; background-size: 20px; background-color: color(rec2020 0 0.5 0); text-align: center" onclick="RedirectYouTube()" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background: url('https://static.wikia.nocookie.net/logopedia/images/5/56/Steam_Icon_2014.svg/revision/latest?cb=20190826175003') no-repeat right 50% center; background-size: 20px; background-color: color(rec2020 0 0.45 0) " onclick="RedirectSteam()" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background: url('https://static.wikia.nocookie.net/logopedia/images/8/83/Twitch_icon.svg/revision/latest?cb=20200130150510') no-repeat right 50% center; background-size: 20px; background-color: color(rec2020 0 0.5 0)" onclick="InputUrl('https://www.twitch.tv/alienblox')" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background: url('https://static.wikia.nocookie.net/logopedia/images/4/42/Patreon_Icon_2023.svg/revision/latest?cb=20231006180657') no-repeat right 50% center; background-size: 20px; background-color: color(rec2020 0 0.45 0)" onclick="InputUrl('https://www.patreon.com/c/AlienBlox')" />
+                <input type="button" style="height: 100%; width: 25%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.5 0); font-family: 'Fira Code'; font-size: 50%" onclick="InputUrl('https://steamcommunity.com/id/AlienBloxxed/')" value="Steam Profile" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.45 0); font-family: 'Fira Code'; font-size: 100% " onclick="InputUrl('Pages/News.htm')" value="News" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.5 0); font-family: 'Fira Code'; font-size: 50% " onclick="InputUrl('Pages/Download.htm')" value="Download" />
+            </div>
+        </div>
 
-			<div class="InvisDiv" style="height: 650px">
-				<div class="SidePanelLeft" style="width: 200px; height: 700px; padding: 0px; margin: 0px;">
-					<h1>Socials</h1>
-					<button class="button ButtonPanel" onclick="RedirectYouTube()"><img src="https://static.wikia.nocookie.net/logopedia/images/9/9f/YouTube_icon_2024.svg/revision/latest?cb=20240718123533" width="23" height="23" /></button>
-					<button class="button ButtonPanel" onclick="InputUrl('https://www.steamcommunity.com/id/AlienBloxxed')"><img src="https://static.wikia.nocookie.net/logopedia/images/5/56/Steam_Icon_2014.svg/revision/latest?cb=20190826175003" width="23" height="23" /></button>
-					<button class="button ButtonPanel" onclick="InputUrl('https://www.twitch.tv/alienblox')"><img src="https://static.wikia.nocookie.net/logopedia/images/8/83/Twitch_icon.svg/revision/latest?cb=20200130150510" width="23" height="23" /></button>
-					<button class="button ButtonPanel" onclick="InputUrl('https://www.patreon.com/c/AlienBlox')"><img src="https://static.wikia.nocookie.net/logopedia/images/4/42/Patreon_Icon_2023.svg/revision/latest?cb=20231006180657" width="23" height="23" /></button>
-				</div>
+        <div style="width: 95%; height: 75vh; padding: 0px; margin: -5px; margin: auto; text-align: center">
 
-				<div class="SidePanelRight" style="width: 200px; height: 700px; padding: 0px; margin: 0px;">
-					<h1>Side Panel</h1>
+        </div>
 
-					<span><button type="button" onclick="InputUrl('News.htm')" value="News">News</button></span>
-					<span><button type="button" onclick="InputUrl('Download.htm')" value="News">Download</button></span>
-				</div>
+        <footer style="height: 20vh; width: 100vw; bottom: 10px; margin: auto">
+            <div class="InvisDiv" style="width: 100%; height: 40%; border-radius: 0px; padding: 0px; margin: auto; bottom: 40%; text-align: center;">
 
-				<div style="width: 750px; height: 700px; padding: 0px; margin: 0px;">
-					<h1>AlienBlox's News</h1>
-
-					<div style="width: 700px; height: 575px; margin:0px; padding:0px; overflow-y: scroll">
-						<p2>
-
-						</p2>
-					</div>
-				</div>
-			</div>
-
-			<div class="InvisDiv" style="height: 125px; padding: 0px; margin:0px">
-				<div style="width: 900px; height: 100px; border: 5px solid #199664; padding: 50px; margin: 20px; color: green; background-color: #00be00; align-self: center">
-					<h1>Navigation Bar</h1>
-					<button type="button" onclick="RedirectLogs()" value="Mod Update Log">Mod Update Log</button>
-					<button type="button" onclick="RedirectHome()" value="Homepage">Homepage</button>
-					<button type="button" onclick="RedirectSteam()" value="Steam">Steam</button>
-				</div>
-				<div style="width: 50px; height: 50px; border: 0px solid #00000000; padding: 0px; margin: 0px; color: #00000000; background-color: #00000000;"></div>
-
-				<p2 style="align-self: center">Copyright AlienBlox's Mod 2025</p2>
-			</div>
-		</center>
-	</body>
+            </div>
+            <div style="width: 100%; height: 60%; border-radius: 0px; border: 0px solid red; padding: 0px; margin: auto; bottom: 40%; background-color: #007535; text-align: center;">
+                <p2 style="width: 100%; height: 90%;">
+                    <br>
+                    <br>
+                    Copyright AlienBlox's Mod 2025
+                </p2>
+            </div>
+        </footer>
+    </body>
 </html>
