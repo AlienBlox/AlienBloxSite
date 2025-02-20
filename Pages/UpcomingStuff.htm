@@ -55,7 +55,7 @@
             }
         </style>
     </head>
-    <body background="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Backgrounds/BackgroundSite.png" style="background-size: cover">
+    <body background="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Backgrounds/BackgroundSite.png" style="background-size: cover; padding: 0px; margin: 0px; overflow-x: hidden; max-width: 100%">
         <div class="TopBar" style="width: 100%; height: 120px; padding: 0px; margin: -5px; border: 5px solid #007535; border-radius: 5px; text-align: left; background-color: #FFFFFF00; border-color: #FFFFFF00;">
             <script>
                 function PoopInMyNasties() {
@@ -70,7 +70,7 @@
 
             <div style="width: 100%; height: 90px; padding: 0px; margin: -5px; border: 5px solid #007535; border-radius: 5px; top: 5px; text-align: left; justify-content: space-between; flex-grow: 0; flex-shrink: 0; flex-basis: 35%; display: flex; overflow: hidden">
                 <div style="color: #00000000; border: 0px solid #00000000; padding: 5px; margin: 5px 5px 5px 5px; width: 273px; height: 85%; object-fit: scale-down;">
-                    <a href="../AlienBloxHome.htm">
+                    <a href="AlienBloxHome.htm">
                         <img src="https://raw.githubusercontent.com/AlienBlox/AlienBloxSite/refs/heads/main/Images/Icons/ModLogo.png" style="width: 273px; height: 76.8px; margin: -5px" alt="AlienBlox's Logo;" />
                     </a>
                 </div>
@@ -86,8 +86,8 @@
                         <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; background: url('https://static.wikia.nocookie.net/logopedia/images/8/83/Twitch_icon.svg/revision/latest?cb=20200130150510') no-repeat right 50% center; background-size: 40px; border: inherit; background-color: color(rec2020 0 0.8 0) " onclick="InputUrl('https://www.patreon.com/c/AlienBlox')" />
                         <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; background: url('https://static.wikia.nocookie.net/logopedia/images/4/42/Patreon_Icon_2023.svg/revision/latest?cb=20231006180657') no-repeat right 50% center; background-size: 40px; border: inherit; background-color: color(rec2020 0 0.55 0) " onclick="InputUrl('https://www.twitch.tv/alienblox')" />
                         <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.8 0); font-family: 'Fira Code'; font-size: 0.3vw;" onclick="InputUrl('https://steamcommunity.com/id/AlienBloxxed/')" value="Steam Profile" />
-                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.55 0); font-family: 'Fira Code'; font-size: 1vw" onclick="InputUrl('News.htm')" value="News" />
-                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.8 0); font-family: 'Fira Code'; font-size: 0.5vw" onclick="InputUrl('Download.htm')" value="Download" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.55 0); font-family: 'Fira Code'; font-size: 1vw" onclick="InputUrl('Pages/News.htm')" value="News" />
+                        <input type="button" style="height: 100%; width: 85px; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.8 0); font-family: 'Fira Code'; font-size: 0.5vw" onclick="InputUrl('Pages/Download.htm')" value="Download" />
                     </div>
                 </div>
             </div>
@@ -98,9 +98,16 @@
                 <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background: url('https://static.wikia.nocookie.net/logopedia/images/8/83/Twitch_icon.svg/revision/latest?cb=20200130150510') no-repeat right 50% center; background-size: 20px; background-color: color(rec2020 0 0.5 0)" onclick="InputUrl('https://www.twitch.tv/alienblox')" />
                 <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background: url('https://static.wikia.nocookie.net/logopedia/images/4/42/Patreon_Icon_2023.svg/revision/latest?cb=20231006180657') no-repeat right 50% center; background-size: 20px; background-color: color(rec2020 0 0.45 0)" onclick="InputUrl('https://www.patreon.com/c/AlienBlox')" />
                 <input type="button" style="height: 100%; width: 25%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.5 0); font-family: 'Fira Code'; font-size: 2vw" onclick="InputUrl('https://steamcommunity.com/id/AlienBloxxed/')" value="Steam Profile" />
-                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.45 0); font-family: 'Fira Code'; font-size: 2vw" onclick="InputUrl('News.htm')" value="News" />
-                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.5 0); font-family: 'Fira Code'; font-size: 2vw" onclick="InputUrl('Download.htm')" value="Download" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.45 0); font-family: 'Fira Code'; font-size: 2vw" onclick="InputUrl('Pages/News.htm')" value="News" />
+                <input type="button" style="height: 100%; width: 12.5%; margin: 0px; float: right; border: 0px solid green; background-color: color(rec2020 0 0.5 0); font-family: 'Fira Code'; font-size: 2vw" onclick="InputUrl('Pages/Download.htm')" value="Download" />
             </div>
         </div>
+
+        <div style="width: 95%; height: 75vh; padding: 0px; margin: -5px; margin: auto">
+
+        </div>
+
+        <footer style="height: 15vh; width: 100%">
+        </footer>
     </body>
 </html>
