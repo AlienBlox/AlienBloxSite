@@ -12,7 +12,7 @@ div {
 
 div.MainThing {
     max-width: 700px;
-    max-height: 300px;
+    max-height: 500px;
 }
 
 div.MediaContainerMain {
@@ -23,6 +23,15 @@ div.MediaContainerMain {
 div.TopBar {
     max-height: 150px;
     max-width: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.TopBar > button, input {
+    width: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
 
 div.NewsSelector {
@@ -33,6 +42,68 @@ div.NewsSelector {
 div.ImageContainerMain {
     max-height: 150px;
     max-width: 350px;
+}
+
+div.TopBar {
+    max-height: 50px;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p, label {
+    font-family: 'Fira Code';
+    font-size: 100%;
+    color: #00ae00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+button, input {
+    background-color: darkgreen;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 60, 0, 1);
+    outline-style: none;
+    outline-color: rgba(0, 125, 0, 0.4);
+    background-image: linear-gradient(rgba(0, 75, 0, 0.4), rgba(0, 75, 0, 0.4)), url(Images/Main/BackgroundThing.png);
+    font-family: 'Fira Code';
+    font-size: 100%;
+    color: #00ae00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button {
+    z-index: 1;
+    pointer-events: auto;
+}
+
+button:hover, input:hover {
+    background-color: rgba(0, 125, 0, 0.4);
+}
+
+div.TopBar > button, input {
+    width: 25px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 1em;
 }
 
 @media (max-width: 1224px) {
@@ -67,28 +138,15 @@ div.ImageContainerMain {
     }
 
     div.TopBar {
-        max-height: 100px;
-        max-width: 300px;
+        width: 90%;
+        max-height: 25px;
+        max-width: 350px;
     }
-}
 
-html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-p, label {
-    font-family: 'Fira Code';
-    font-size: 100%;
-    color: #00ae00;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    border-radius: 5px;
+    div.TopBar > button, input {
+        width: 25px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 0.4em;
+    }
 }
