@@ -10,3 +10,13 @@ function HideOrShowUI(ID) {
         }
     }
 }
+
+function ImageError(image) {
+    image.onerror = null;
+    image.src = 'Images/Main/Fallback.png';
+    image.style.backgroundColor = "#654321";
+}
+
+function LinkTo(Link) {
+    window.location.href = Link;
+}

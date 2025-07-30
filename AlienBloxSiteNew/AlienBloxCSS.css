@@ -12,13 +12,27 @@ div {
 
 div.MainThing {
     max-width: 700px;
-    max-height: 500px;
+    max-height: 300px;
 }
 
 div.MediaContainerMain {
     max-height: 300px;
-    max-width: 300px;
-    
+    max-width: 350px; 
+}
+
+div.TopBar {
+    max-height: 150px;
+    max-width: 700px;
+}
+
+div.NewsSelector {
+    max-height: 125px;
+    max-width: 250px;
+}
+
+div.ImageContainerMain {
+    max-height: 150px;
+    max-width: 350px;
 }
 
 @media (max-width: 1224px) {
@@ -28,13 +42,33 @@ div.MediaContainerMain {
     }
 
     div.MainThing {
-        max-height: 350px;
+        max-height: 200px;
         max-width: 300px;
     }
 
     div.MediaContainerBack {
         max-height: 100px;
+        max-width: 300px;
+    }
+
+    div.MediaContainerMain {
+        max-height: 200px;
+        max-width: 150px;
+    }
+
+    div.NewsSelector {
+        max-height: 75px;
         max-width: 200px;
+    }
+
+    div.ImageContainerMain {
+        max-height: 200px;
+        max-width: 150px;
+    }
+
+    div.TopBar {
+        max-height: 100px;
+        max-width: 300px;
     }
 }
 
@@ -43,4 +77,18 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+p, label {
+    font-family: 'Fira Code';
+    font-size: 100%;
+    color: #00ae00;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 5px;
 }
