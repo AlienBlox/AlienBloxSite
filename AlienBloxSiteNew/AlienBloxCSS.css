@@ -1,7 +1,40 @@
 div {
-    background-color: #f0f0f0;
+    background-color: darkgreen;
     color: #333;
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 0px;
     border-radius: 5px;
+    border: 2px solid rgba(0, 60, 0, 1);
+    outline-style: none;
+    outline-color: rgba(0, 125, 0, 0.4);
+    background-image: linear-gradient(rgba(0, 125, 0, 0.4), rgba(0, 125, 0, 0.4)), url(Images/Main/BackgroundThing.png);
+}
+
+div.MainThing {
+    max-width: 700px;
+    max-height: 500px;
+}
+
+div.MediaContainerMain {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+@media (max-width: 1224px) {
+    div.MainThing {
+        width: 75%;
+        height: 50%;
+    }
+
+    div.MainThing {
+        max-height: 350px;
+        max-width: 300px;
+    }
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
