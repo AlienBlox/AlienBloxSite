@@ -1,0 +1,102 @@
+h1, h2 {
+	color: rgb(0, 100, 0);
+	border-radius: 3px;
+	border-color: #003819;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.SidePanelLeft, .SidePanelRight {
+	width: 90px;
+	height: 400px;
+  	border: 5px solid #007535;
+  	padding: 50px;
+  	margin: 20px;
+	color: #009600;
+	background-color: #00be00;
+}
+
+.SidePanelLeft {
+	float: left;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+}
+
+button:hover, input:hover {
+	background-color: #00ef00;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.NewsFrame {
+	border: 2px solid color(rec2020 0 0.5 0);
+	background-color: color(rec2020 0 0.5 0);
+	border-radius: 0px;
+	width: 75%;
+	height: 75%;
+	padding: 5px;
+	margin: auto;
+}
+
+.NewsContent {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	border: 2px solid color(rec2020 0 0 0);
+	background-color: color(rec2020 0 0 0);
+	border-radius: 0px;
+	display: flex;
+	justify-content: center;
+	object-fit: contain;
+}
+
+.InvisDiv {
+	align-items: center;
+	width: 1200px;
+	height: 600px;
+  	border: 5px solid #ffffff00;
+  	padding: 50px;
+  	margin: 20px;
+	color: #ffffff00;
+	background-color: #ffffff00;
+}
+
+.CenterDiv {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.TopBar {
+	margin: auto;
+	position: sticky;
+	top: -5px;
+	overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+	#SizeMattersSmall {
+		display: none;
+	}
+}
+
+@media (min-width: 1199px) {
+	#SizeMattersBig {
+		display: none;
+	}
+
+	#SizeMattersBig2 {
+		display: none;
+	}
+}
+
+button, input.MobileButton {
+	word-wrap: break-word;
+	word-break: break-word;
+}
