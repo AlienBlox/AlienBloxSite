@@ -16,12 +16,12 @@
         </div>
 
         <div class="TopBar" style="width: 75%; height: 10%; margin: auto; margin-bottom: 10px; background-image: linear-gradient(rgba(0, 75, 0, 0.4), rgba(0, 75, 0, 0.4)), url(Images/Main/BackgroundThing.png);">
-            <input class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.youtube.com/channel/UCpu_V3nxWViuAOHAeGlkyvQ')" value="YouTube" readonly>
-            <input class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.twitch.tv/alienblox')" value="Twitch" readonly>
-            <input class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.reddit.com/r/AlienBloxMod')" value="Reddit" readonly>
-            <input class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/Download.htm')" value="Download" readonly>
-            <input class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/News.htm')" value="News" readonly>
-            <input class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/UpdateLogs.htm')" value="Update Logs" readonly>
+            <input id="YT" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.youtube.com/channel/UCpu_V3nxWViuAOHAeGlkyvQ')" value="YouTube" readonly>
+            <input id="Twitch" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.twitch.tv/alienblox')" value="Twitch" readonly>
+            <input id="Reddit" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.reddit.com/r/AlienBloxMod')" value="Reddit" readonly>
+            <input id="Download" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/Download.htm')" value="Download" readonly>
+            <input id="News" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/News.htm')" value="News" readonly>
+            <input id="Updates" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/UpdateLogs.htm')" value="Update Logs" readonly>
         </div>
 
         <div class="MainThing" style="width: 75%; height: 50vh; margin: auto">
@@ -52,21 +52,22 @@
 
                     <div style="width: 100%; height: 35%; transform: scale(.9, .8); z-index: 999; border-radius: 0px; background-image: linear-gradient(rgba(75, 75, 75, 0.4), rgba(75, 75, 75, 0.4)), url(Images/Main/BackgroundThing.png); bottom:auto;">
                         <div style="width: 100%; height: 30%; border-radius: 0px; border: 0px;">
-                            <label style="font-family: 'Fira Code';">
+                            <label class="TitleBar" style="font-family: 'Fira Code';">
                                 Nothing to see...
                             </label>
                         </div>
 
                         <div style="width: 100%; height: 70%; border: 0px; border-radius: 0px; background-image: none; background-color: #00000000; display: flex">
-                            <input class="button" style="flex: 1; border: 1px; border-radius: 0px;"/>
-                            <input class="button" style="flex: 1; border: 1px; border-radius: 0px;"/>
-                            <input class="button" style="flex: 1; border: 1px; border-radius: 0px;"/>
+                            <input id="Back" class="button" style="flex: 1; border: 2px; border-radius: 0px; font-size: 100%; transition-duration: 0s" readonly value="<"/>
+                            <input id="Front" class="button" style="flex: 1; border: 2px; border-radius: 0px; font-size: 100%; transition-duration: 0s" readonly value=">"/>
                         </div>
                     </div>
                 </div>
                     
-                <div style="border: 3px; border-radius: 3px; width: 50%; height: 100%; float: right; transform: scale(.9, .9); background-image: linear-gradient(rgba(75, 75, 75, 0.4), rgba(75, 75, 75, 0.4)), url(Images/Main/BackgroundThing.png);">
-
+                <div style="border: 3px; border-radius: 3px; width: 50%; height: 100%; float: right; transform: scale(.9, .9); background-image: linear-gradient(rgba(75, 75, 75, 0.4), rgba(75, 75, 75, 0.4)), url(Images/Main/BackgroundThing.png); overflow-y: auto">
+                    <p>
+                        Nothing to see
+                    </p>
                 </div>
             </div>
         </div>

@@ -98,6 +98,7 @@ button {
 
 button:hover, input:hover {
     background-color: rgba(0, 125, 0, 0.4);
+    background-image: linear-gradient(rgba(0, 125, 0, 0.4), rgba(0, 125, 0, 0.4)), url(Images/Main/BackgroundThing.png);
 }
 
 div.TopBar > button, input {
@@ -159,5 +160,9 @@ div.TopBar > button, input {
 
     p, label {
         font-size: 0.7em;
+    }
+
+    .TitleBar {
+        font-size: 50%
     }
 }
