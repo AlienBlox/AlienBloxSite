@@ -8,6 +8,7 @@ div {
     outline-style: none;
     outline-color: rgba(0, 125, 0, 0.4);
     background-image: linear-gradient(rgba(0, 125, 0, 0.4), rgba(0, 125, 0, 0.4)), url(Images/Main/BackgroundThing.png);
+    box-shadow: 10px, 10px 5px black;
 }
 
 div.MainThing {
@@ -110,9 +111,6 @@ div.TopBar > button, input {
     div.MainThing {
         width: 75%;
         height: 50%;
-    }
-
-    div.MainThing {
         max-height: 200px;
         max-width: 300px;
     }
@@ -148,5 +146,18 @@ div.TopBar > button, input {
         text-align: center;
         line-height: 75px;
         font-size: 0.4em;
+    }
+
+    .BottomUnit {
+        font-size: 0.7em;
+    }
+
+    .flag {
+        min-height : 25px;
+        min-width: 30px;
+    }
+
+    p, label {
+        font-size: 0.7em;
     }
 }
