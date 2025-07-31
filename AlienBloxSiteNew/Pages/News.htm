@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <title>Download</title>
+        <title>News</title>
         <meta charset="UTF-8">
         <link rel="icon" type="image/x-icon" href="../Images/Main/Favicon.png">
         <link rel="stylesheet" href="../AlienBloxCSS.css">
@@ -15,20 +15,26 @@
             <a href="../AlienBloxMain.htm"><img src="../Images/Main/Logo.png" style="width:100%; height:100%; max-width: 100%; max-height: 100%; object-fit: contain;" /></a>
         </div>
 
-        <div class="TopBar" style="width: 80%; height: 10%; margin: auto; margin-bottom: 10px; background-image: linear-gradient(rgba(0, 75, 0, 0.4), rgba(0, 75, 0, 0.4)), url(Images/Main/BackgroundThing.png);">
+        <div class="TopBar" style="width: 80%; height: 10%; margin: auto; margin-bottom: 10px; background-image: linear-gradient(rgba(0, 75, 0, 0.4), rgba(0, 75, 0, 0.4)), url(../Images/Main/BackgroundThing.png);">
             <input id="YT" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.youtube.com/channel/UCpu_V3nxWViuAOHAeGlkyvQ')" value="YouTube" readonly>
             <input id="Twitch" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.twitch.tv/alienblox')" value="Twitch" readonly>
             <input id="Reddit" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.reddit.com/r/AlienBloxMod')" value="Reddit" readonly>
             <input id="Patreon" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://www.patreon.com/c/AlienBlox')" value="Patreon" readonly>
             <input id="Steam" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('https://steamcommunity.com/sharedfiles/filedetails/?id=3152490542')" value="Steam" readonly>
-            <input id="Download" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/Download.htm')" value="Download" readonly>
-            <input id="News" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/News.htm')" value="News" readonly>
-            <input id="Updates" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('Pages/UpdateLogs.htm')" value="Update Logs" readonly>
-            <input id="Home" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('AlienBloxMain.htm')" value="Home" readonly>
+            <input id="Download" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('../Pages/Download.htm')" value="Download" readonly>
+            <input id="News" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('../Pages/News.htm')" value="News" readonly>
+            <input id="Updates" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('../Pages/UpdateLogs.htm')" value="Update Logs" readonly>
+            <input id="Home" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('../AlienBloxMain.htm')" value="Home" readonly>
         </div>
 
-        <div style="width: 100vw; height: 4%; border-radius: 0px; border: 3px; position: fixed; bottom: 0;">
-            <label class="BottomUnit" style="width: 100%; height: 100%; margin: auto">
+        <div class="MainDisplay" style="margin: auto; width: 50%; height: 200%; max-height: 200%; background-image: linear-gradient(rgba(0, 125, 0, 0.4), rgba(0, 125, 0, 0.4)), url(../Images/Main/BackgroundThing.png); margin-bottom: 15%">
+        </div>
+
+        <div style="margin: auto; width: 100%; height: 10vh; background-image: linear-gradient(rgba(0, 125, 0, 1), rgba(0, 125, 0, 1)); border: 0px; opacity: 0">
+        </div>
+
+        <div id="BottomBar" style="width: 100vw; height: 4%; border-radius: 0px; border: 3px; position: fixed; bottom: 0;">
+            <label class="BottomUnit" style="width: 100%; height: 100%; margin: auto;" onclick="HideOrShowUI('BottomBar')">
                 Proudly made in&nbsp;<img class="flag" src="../Images/Main/Ireland.png" style="width: 3%; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 0px; min-width: 6px; min-height: 3%; display: inline-block; max-height: 10px; max-width: 15px;">&nbsp;by AlienBlox1234 on&nbsp;<a href="https://steamcommunity.com/id/AlienBloxxed/">Steam</a>
             </label>
         </div>
