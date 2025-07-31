@@ -22,7 +22,7 @@ div.MediaContainerMain {
 }
 
 div.TopBar {
-    max-height: 150px;
+    max-height: 50px;
     max-width: 700px;
     display: flex;
     flex-wrap: nowrap;
@@ -43,10 +43,6 @@ div.NewsSelector {
 div.ImageContainerMain {
     max-height: 150px;
     max-width: 350px;
-}
-
-div.TopBar {
-    max-height: 50px;
 }
 
 html, body {
@@ -105,7 +101,14 @@ div.TopBar > button, input {
     width: 25px;
     text-align: center;
     line-height: 75px;
-    font-size: 1em;
+    font-size: .8em;
+}
+
+div.MainDisplay {
+    min-height: 400px;
+    min-width: 600px;
+    max-width: 1100px;
+    max-height: 550px;
 }
 
 @media (max-width: 1224px) {
@@ -139,14 +142,21 @@ div.TopBar > button, input {
     div.TopBar {
         width: 90%;
         max-height: 25px;
-        max-width: 350px;
+        max-width: 300px;
     }
 
     div.TopBar > button, input {
         width: 25px;
         text-align: center;
         line-height: 75px;
-        font-size: 0.4em;
+        font-size: 0.35em;
+    }
+
+    div.MainDisplay {
+        min-height: 200px;
+        min-width: 350px;
+        max-width: 450px;
+        max-height: 600px;
     }
 
     .BottomUnit {
