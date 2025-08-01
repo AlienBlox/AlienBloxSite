@@ -10,11 +10,6 @@
         <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
         <script type="text/javascript" src="../Javascripts/VeryImportantScripts/MenuHandling.js"></script>
         <script type="text/javascript" src="../Javascripts/VeryImportantScripts/Inserters.js"></script>
-
-        <script defer>
-            LoadElement('../Extras/Elements/TableLogs.htm', 'MainDisplay');
-            console.log('Update Logs Page Loaded');
-        </script>
     </head>
     <body style="background-image: url(https://terraria.wiki.gg/images/8/8b/Underground_background_4.png?5ca9f7&format=original);">
         <div class="ImageContainerMain" style="width: 100vw; height: 10vh; margin: auto; background-color: #00000000; border-style: hidden; outline-style: none; background-image: unset; padding-bottom: 25px; padding-top: 25px">
@@ -33,7 +28,7 @@
             <input id="Home" class="button" style="flex: 1; border-radius: 0px; transition-duration: 0s;" onclick="LinkTo('../AlienBloxMain.htm')" value="Home" readonly>
         </div>
 
-        <div class="MainDisplay" style="width: 50vw; height: 60vh; margin: auto;">
+        <div class="MainDisplay" id="MainDisplay" style="width: 50vw; height: 60vh; margin: auto;">
             <div style="width: 100%; height: 15%; margin: auto; border: 0px; border-radius: 0px">
                 <p style="font-size: 1em">
                     <b>AlienBlox's Mod Update Logs</b>
