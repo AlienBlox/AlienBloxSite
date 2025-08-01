@@ -170,6 +170,11 @@ div.NewsTile {
     max-width: 600px;
 }
 
+div.TopDisplayBar {
+    max-height: 70px;
+    font-size: 2rem;
+}
+
 @media (max-width: 1224px) {
     div.NewsTile {
         max-height: 190px;
@@ -238,5 +243,10 @@ div.NewsTile {
 
     .TitleBar {
         font-size: 50%
+    }
+
+    div.TopDisplayBar {
+        max-height: 50px;
+        font-size: 1rem;
     }
 }
