@@ -11,6 +11,13 @@ function HideOrShowUI(ID) {
     }
 }
 
+function DestroyUI(ID) {
+    var element = document.getElementById(ID);
+    if (element) {
+        element.remove();
+    }
+}
+
 function ImageError(image) {
     image.onerror = null;
     image.src = 'Images/Main/Fallback.png';
