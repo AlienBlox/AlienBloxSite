@@ -11,6 +11,22 @@ function HideOrShowUI(ID) {
     }
 }
 
+function ToggleUISiblingInstance(object, ID) {
+    const parent = targetElement.parentNode;
+    const siblings = Array.from(parent.children);
+    const siblingNodes = siblings.filter(el => el !== targetElement);
+
+    siblingNodes.forEach(sibling => {
+        if (sibling.id === ID) {
+            if (sibling.style.display === "none") {
+                sibling.style.display = "block";
+            } else {
+                sibling.style.display = "none";
+            }
+        }
+    });
+}
+
 function DestroyUI(ID) {
     var element = document.getElementById(ID);
     if (element) {
