@@ -17,6 +17,12 @@ function ImageError(image) {
     image.style.backgroundColor = "#654321";
 }
 
+function ImageErrorPages(image) {
+    image.onerror = null;
+    image.src = '../Images/Main/Fallback.png';
+    image.style.backgroundColor = "#654321";
+}
+
 function LinkTo(Link) {
     window.location.href = Link;
 }

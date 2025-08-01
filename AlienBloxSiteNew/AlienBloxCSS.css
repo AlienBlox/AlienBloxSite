@@ -1,6 +1,6 @@
 div {
     background-color: darkgreen;
-    color: #333;
+    color: #00ae00; /*previously #333;*/
     font-family: Arial, sans-serif;
     padding: 0px;
     border-radius: 5px;
@@ -9,6 +9,9 @@ div {
     outline-color: rgba(0, 125, 0, 0.4);
     background-image: linear-gradient(rgba(0, 125, 0, 0.4), rgba(0, 125, 0, 0.4)), url(Images/Main/BackgroundThing.png);
     box-shadow: 10px, 10px 5px black;
+    font-family: 'Fira Code';
+    font-size: 100%;
+    text-align: center;
 }
 
 div.MainThing {
@@ -162,7 +165,17 @@ tr:nth-child(even) {
     background-image: linear-gradient(rgba(0, 175, 0, 0.4), rgba(0, 175, 0, 0.4)), url(Images/Main/BackgroundThing.png);
 }
 
+div.NewsTile {
+    max-height: 300px;
+    max-width: 600px;
+}
+
 @media (max-width: 1224px) {
+    div.NewsTile {
+        max-height: 190px;
+        max-width: 600px;
+    }
+
     div.MainThing {
         width: 75%;
         height: 50%;
