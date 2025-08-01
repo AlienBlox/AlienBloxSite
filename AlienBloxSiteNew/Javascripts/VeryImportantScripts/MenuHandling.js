@@ -11,17 +11,20 @@ function HideOrShowUI(ID) {
     }
 }
 
-function ToggleUISiblingInstance(object, ID) {
-    const parent = targetElement.parentNode;
+function ToggleUISiblingInstance(object, ID)
+{
+    const parent = object.parentNode;
     const siblings = Array.from(parent.children);
-    const siblingNodes = siblings.filter(el => el !== targetElement);
+    const siblingNodes = siblings.filter(el => el !== object);
 
     siblingNodes.forEach(sibling => {
         if (sibling.id === ID) {
             if (sibling.style.display === "none") {
                 sibling.style.display = "block";
+                console.log("Showing sibling with ID: " + ID);
             } else {
                 sibling.style.display = "none";
+                console.log("Hiding sibling with ID: " + ID);
             }
         }
     });
