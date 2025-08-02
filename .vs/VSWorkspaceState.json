@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\AlienBloxSiteNew",
-    "\\AlienBloxSiteNew\\Images",
-    "\\AlienBloxSiteNew\\Images\\Main",
+    "\\AlienBloxSiteNew\\Extras",
+    "\\AlienBloxSiteNew\\Extras\\Elements",
+    "\\AlienBloxSiteNew\\Javascripts",
     "\\AlienBloxSiteNew\\Javascripts\\VeryImportantScripts",
     "\\AlienBloxSiteNew\\Pages",
     "\\Old",
     "\\Old\\AlienBloxSite",
-    "\\Old\\AlienBloxSite\\Images\\Icons",
     "\\Old\\AlienBloxSite\\Scripts"
   ],
-  "SelectedNode": "\\AlienBloxSiteNew\\Pages\\News.htm",
+  "SelectedNode": "\\AlienBloxSiteNew\\Javascripts\\VeryImportantScripts\\MenuHandling.js",
   "PreviewInSolutionExplorer": false
 }

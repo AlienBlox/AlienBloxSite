@@ -18,9 +18,7 @@ function ToggleUISiblingInstance(object, ID)
     const siblingNodes = siblings.filter(el => el !== object);
 
     siblingNodes.forEach(sibling => {
-        console.log("success2");
         if (sibling.id === ID) {
-            console.log("success3");
             if (sibling.style.display === "none") {
                 sibling.style.display = "block";
             } else {

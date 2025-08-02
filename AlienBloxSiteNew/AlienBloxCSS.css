@@ -178,7 +178,22 @@ div.TopDisplayBar {
 div.NewsContainer {
     margin: auto;
     max-width: 700px;
-    max-height: 400px;
+    max-height: 800px;
+}
+
+div.NewsContent {
+    font-size: 1em;
+    max-height: 300px;
+}
+
+img.NewsImg {
+    max-height: 300px;
+    max-width: 350px;
+}
+
+button.NewsButton {
+    max-height: 50px;
+    font-size: 1em;
 }
 
 @media (max-width: 1224px) {
@@ -262,6 +277,21 @@ div.NewsContainer {
 
     div.NewsContainer {
         max-width: 300px;
-        max-height: 250px;
+        max-height: 400px;
+    }
+
+    div.NewsContent {
+        font-size: 0.6em;
+        max-height: 150px;
+    }
+
+    button.NewsButton {
+        max-height: 40px;
+        font-size: 1em;
+    }
+
+    img.NewsImg {
+        max-height: 200px;
+        max-width: 150px;
     }
 }
