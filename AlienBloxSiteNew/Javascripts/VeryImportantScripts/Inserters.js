@@ -7,10 +7,16 @@ function LoadElement(ElementFilePath, AtElement) {
         })
         .catch(error => {
             console.error('Error loading element:', error);
-
         });
 }
 
 function LoadNewsTile(Title, Link, ID, ImagePath, Content) {
-    fetch()
+    fetch('../Extras/Elements/NewsCore.htm').
+        then(response => response.text())
+        then(html => {
+            
+        })
+        .catch(error => {
+            console.error('Error loading element:', error);
+        });
 }
