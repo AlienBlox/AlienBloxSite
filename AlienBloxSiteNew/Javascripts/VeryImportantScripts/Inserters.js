@@ -16,7 +16,7 @@ function LoadNewsTile(Title, Link, E, ImagePath, Content) {
         then(html => {
             const Siblings = Array.from(html.children)
 
-            Siblings.forEach(Siblings => {
+            Siblings.forEach(siblingInstance => {
 
             })
             
