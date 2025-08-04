@@ -10,3 +10,7 @@ function LoadElement(ElementFilePath, AtElement) {
 
         });
 }
+
+function LoadNewsTile(Title, Link, ID, ImagePath, Content) {
+    fetch()
+}

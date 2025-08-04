@@ -186,6 +186,11 @@ div.NewsContent {
     max-height: 300px;
 }
 
+div.NewsCore {
+    max-width: 300px;
+    max-height: 25px;
+}
+
 img.NewsImg {
     max-height: 300px;
     max-width: 350px;
@@ -283,6 +288,11 @@ button.NewsButton {
     div.NewsContent {
         font-size: 0.6em;
         max-height: 150px;
+    }
+
+    div.NewsCore {
+        max-width: 250px;
+        max-height: 25px;
     }
 
     button.NewsButton {
