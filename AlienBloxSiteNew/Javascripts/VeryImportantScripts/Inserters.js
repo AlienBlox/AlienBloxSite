@@ -10,11 +10,17 @@ function LoadElement(ElementFilePath, AtElement) {
         });
 }
 
-function LoadNewsTile(Title, Link, ID, ImagePath, Content) {
+function LoadNewsTile(Title, Link, E, ImagePath, Content) {
     fetch('../Extras/Elements/NewsCore.htm').
-        then(response => response.text())
+        then(response => response.text()).
         then(html => {
+            const Siblings = Array.from(html.children)
+
+            Siblings.forEach(Siblings => {
+
+            })
             
+            E.innerHTML += html;
         })
         .catch(error => {
             console.error('Error loading element:', error);
