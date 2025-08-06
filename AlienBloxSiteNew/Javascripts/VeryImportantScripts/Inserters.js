@@ -11,18 +11,19 @@ function LoadElement(ElementFilePath, AtElement) {
 }
 
 function LoadNewsTile(Title, Link, E, ImagePath, Content) {
-    fetch('../Extras/Elements/NewsCore.htm').
-        then(response => response.text()).
-        then(html => {
-            const Siblings = Array.from(html.children)
-
-            Siblings.forEach(siblingInstance => {
+    try {
+        fetch('../Extras/Elements/NewsCore.htm').
+            then(response => response.text()).
+            then(ElementThing => {
+                E.parentNode.innerHTML += ElementThing;
+                console.error(E.querySelector('#NewsContainer').querySelector('#NewsBody').querySelector('#NewsTitle'));
 
             })
-            
-            E.innerHTML += html;
-        })
-        .catch(error => {
-            console.error('Error loading element:', error);
-        });
+            .catch(error => {
+                console.error('Error loading element:', error);
+            });
+    }
+    catch (error) {
+        console.error('Error in LoadNewsTile:', error);
+    }
 }
